@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-starter",
+  "version": "1.0.0",
+  "description": "NodeJS Starter",
+  "main": "server.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johanhaleby/nodejs-starter"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "debug": "node --debug-brk server.js",
+    "test": "NODE_ENV=dev mocha test/**",
+    "test-debug": "NODE_ENV=dev mocha test/** --debug-brk",
+    "test-watch": "NODE_ENV=dev mocha test/** --watch"
+  },
+  "author": "Johan Haleby",
+  "license": "Apache2",
+  "dependencies": {
+    "config": "^1.25.1",
+    "express": "^4.14.1",
+    "express-graceful-shutdown": "0.0.3",
+    "js-yaml": "^3.7.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.4",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  }
+}
