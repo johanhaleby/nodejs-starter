@@ -9,7 +9,7 @@ Start project for nodejs lab
 To get started run:
 
 1. npm install
-1. npm run-script watch (starts server and allows you to do F5 in the server on changes)
+1. npm run-script watch (starts server and allows you press F5 in the browser to see changes instantly)
 
 Now navigate to [http://localhost:3000](http://localhost:3000)
 
