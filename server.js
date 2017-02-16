@@ -28,7 +28,7 @@ app.get('/', function (req, res) {
 
 
 var server = app.listen(3000, function () {
-    log.info('NodeJS HTTP server is listening on port 3000! (env %s)', process.env.NODE_ENV == undefined ? "default" : process.env.NODE_ENV)
+    log.info('%s server is listening on port 3000! (env %s)', config.get("server.name"), process.env.NODE_ENV == undefined ? "default" : process.env.NODE_ENV)
 });
 
 module.exports = app;
