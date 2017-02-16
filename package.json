@@ -21,7 +21,6 @@
   "dependencies": {
     "config": "^1.25.1",
     "express": "^4.14.1",
-    "js-yaml": "^3.7.0",
     "winston": "^2.3.1"
   },
   "devDependencies": {
