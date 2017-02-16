@@ -17,5 +17,5 @@ Now navigate to [http://localhost:3000](http://localhost:3000)
 
 Tests are using [MochaJS](https://mochajs.org), [Chai](http://chaijs.com/), [Supertest](https://github.com/visionmedia/supertest) and [Nock](https://github.com/node-nock/nock) for stubbing out HTTP services.
 
-1. Run tests using `npm test` or `npm test-watch` for continuous testing
+1. Run tests using `npm test` or `npm run-script test-watch` for continuous testing
 
