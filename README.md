@@ -1,7 +1,7 @@
 NodeJS Starter
 ==============
 
-Start project for nodejs lab. Uses [winstone](https://github.com/winstonjs/winston) for logging, [Express](http://expressjs.com/) for HTTP API, [node-config](https://github.com/lorenwest/node-config) for configuration.
+Start project for nodejs lab. Uses [winston](https://github.com/winstonjs/winston) for logging, [Express](http://expressjs.com/) for HTTP API, [node-config](https://github.com/lorenwest/node-config) for configuration.
 
 
 ### Development
